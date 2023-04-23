@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="FilaObject">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../FilaObject/out/artifacts/FilaObject_jar/FilaObject.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
