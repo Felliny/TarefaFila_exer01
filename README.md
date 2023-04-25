@@ -1,3 +1,3 @@
 Exercício 1 de Filas
 
-![image](https://user-images.githubusercontent.com/99506287/233866724-09e4e44f-2706-4ebc-8bf3-a646e881f4b9.png)
+![image](https://user-images.githubusercontent.com/99506287/234334644-863cff47-a5e0-4ca3-984c-198279109635.png)
