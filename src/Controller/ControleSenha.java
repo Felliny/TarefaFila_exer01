@@ -17,8 +17,15 @@ public class ControleSenha {
         this.filaprioritaria= filaprioritaria;
     }
     public void AtenderCliente() {
-        i++;
-        if (i % 4 != 0){
+        if (filaprioritaria.isEmpty()){
+            try {
+                System.out.println("Um cliente da fila normal com a senha "+ filanormal.remove() + "N foi atendido \n Quantidade de senhas na fila normal: "+ filanormal.size());
+            } catch (Exception e) {
+                throw new RuntimeException(e);
+            }
+        }
+        else if (i % 4 != 0){
+            i++;
             try {
                 System.out.println("Um cliente da fila prioritária com a senha "+ filaprioritaria.remove() + "P foi atendido  \n Quantidade de senhas na fila prioritária: "+ filaprioritaria.size());
             } catch (Exception e) {
@@ -26,6 +33,7 @@ public class ControleSenha {
             }
         }
         else {
+            i++;
             try {
                 System.out.println("Um cliente da fila normal com a senha "+ filanormal.remove() + "N foi atendido \n Quantidade de senhas na fila normal: "+ filanormal.size());
             } catch (Exception e) {
